@@ -1,0 +1,994 @@
+2023-08-08 11:51:31.003 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 11:51:31.283 +03:00 [DBG] Hosting starting
+2023-08-08 11:51:31.594 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 11:51:31.596 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 11:51:31.597 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 11:51:31.598 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 11:51:31.600 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 11:51:31.601 +03:00 [INF] Hosting environment: Development
+2023-08-08 11:51:31.603 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 11:51:31.604 +03:00 [DBG] Hosting started
+2023-08-08 11:51:32.027 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" accepted.
+2023-08-08 11:51:32.027 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" accepted.
+2023-08-08 11:51:32.046 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" received FIN.
+2023-08-08 11:51:32.046 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" received FIN.
+2023-08-08 11:51:32.050 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" started.
+2023-08-08 11:51:32.052 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" started.
+2023-08-08 11:51:32.090 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" sending FIN because: "The client closed the connection."
+2023-08-08 11:51:32.104 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" sending FIN because: "The client closed the connection."
+2023-08-08 11:51:32.108 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" disconnecting.
+2023-08-08 11:51:32.110 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" disconnecting.
+2023-08-08 11:51:32.133 +03:00 [DBG] Connection id "0HMSNTIKT4EPA" stopped.
+2023-08-08 11:51:32.133 +03:00 [DBG] Connection id "0HMSNTIKT4EP9" stopped.
+2023-08-08 11:51:33.030 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" accepted.
+2023-08-08 11:51:33.040 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" started.
+2023-08-08 11:51:33.160 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger - -
+2023-08-08 11:51:33.209 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 11:51:33.275 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-08-08 11:51:33.304 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" accepted.
+2023-08-08 11:51:33.342 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:33.343 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" started.
+2023-08-08 11:51:33.503 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" completed keep alive response.
+2023-08-08 11:51:33.529 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger - - - 301 0 - 365.2179ms
+2023-08-08 11:51:33.614 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - -
+2023-08-08 11:51:33.616 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 11:51:33.617 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:34.629 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 11:51:34.721 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 11:51:34.724 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" completed keep alive response.
+2023-08-08 11:51:34.728 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 1113.9846ms
+2023-08-08 11:51:36.390 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui.css - -
+2023-08-08 11:51:36.391 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-08-08 11:51:36.392 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:36.481 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-08 11:51:36.485 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" completed keep alive response.
+2023-08-08 11:51:36.487 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui.css - - - 200 143943 text/css 97.1981ms
+2023-08-08 11:51:36.782 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui-bundle.js - -
+2023-08-08 11:51:36.782 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" accepted.
+2023-08-08 11:51:36.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui-standalone-preset.js - -
+2023-08-08 11:51:36.784 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-08 11:51:36.786 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" started.
+2023-08-08 11:51:36.787 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-08 11:51:36.788 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:36.790 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 11:51:36.792 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:36.797 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" completed keep alive response.
+2023-08-08 11:51:36.799 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.5399ms
+2023-08-08 11:51:36.860 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-08 11:51:36.862 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" completed keep alive response.
+2023-08-08 11:51:36.864 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 80.9226ms
+2023-08-08 11:51:36.972 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-08 11:51:36.975 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" completed keep alive response.
+2023-08-08 11:51:36.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 195.1293ms
+2023-08-08 11:51:37.225 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" received FIN.
+2023-08-08 11:51:37.233 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" received FIN.
+2023-08-08 11:51:37.259 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" disconnecting.
+2023-08-08 11:51:37.258 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" disconnecting.
+2023-08-08 11:51:37.241 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" received FIN.
+2023-08-08 11:51:37.265 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" disconnecting.
+2023-08-08 11:51:37.267 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" stopped.
+2023-08-08 11:51:37.263 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" sending FIN because: "The client closed the connection."
+2023-08-08 11:51:37.263 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" stopped.
+2023-08-08 11:51:37.271 +03:00 [DBG] Connection id "0HMSNTIKT4EPB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 11:51:37.273 +03:00 [DBG] Connection id "0HMSNTIKT4EPC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 11:51:37.279 +03:00 [DBG] Connection id "0HMSNTIKT4EPD" stopped.
+2023-08-08 11:51:39.011 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" accepted.
+2023-08-08 11:51:39.014 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" started.
+2023-08-08 11:51:39.015 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - -
+2023-08-08 11:51:39.017 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 11:51:39.019 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:39.588 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" accepted.
+2023-08-08 11:51:39.593 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" started.
+2023-08-08 11:51:39.597 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/favicon-32x32.png - -
+2023-08-08 11:51:39.598 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-08-08 11:51:39.599 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:51:39.601 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-08 11:51:39.607 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" completed keep alive response.
+2023-08-08 11:51:39.608 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/favicon-32x32.png - - - 200 628 image/png 11.2292ms
+2023-08-08 11:51:40.518 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" completed keep alive response.
+2023-08-08 11:51:40.561 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1545.8104ms
+2023-08-08 11:51:42.222 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" received FIN.
+2023-08-08 11:51:42.222 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" received FIN.
+2023-08-08 11:51:42.227 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" disconnecting.
+2023-08-08 11:51:42.228 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" disconnecting.
+2023-08-08 11:51:42.230 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" sending FIN because: "The client closed the connection."
+2023-08-08 11:51:42.231 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" sending FIN because: "The client closed the connection."
+2023-08-08 11:51:42.236 +03:00 [DBG] Connection id "0HMSNTIKT4EPF" stopped.
+2023-08-08 11:51:42.236 +03:00 [DBG] Connection id "0HMSNTIKT4EPE" stopped.
+2023-08-08 11:53:32.441 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" accepted.
+2023-08-08 11:53:32.449 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" started.
+2023-08-08 11:53:32.454 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5240/inventory/Inventory/export application/json 74
+2023-08-08 11:53:32.460 +03:00 [DBG] 1 candidate(s) found for the request path '/inventory/Inventory/export'
+2023-08-08 11:53:32.468 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'inventory/Inventory/export' is valid for the request path '/inventory/Inventory/export'
+2023-08-08 11:53:32.471 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:32.472 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 11:53:32.475 +03:00 [WRN] Failed to determine the https port for redirect.
+2023-08-08 11:53:32.484 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:32.526 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 11:53:32.538 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 11:53:32.546 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 11:53:32.569 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 11:53:32.572 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 11:53:32.574 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 11:53:32.579 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 11:53:32.585 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 11:53:32.596 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 11:53:32.604 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 11:53:32.608 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 11:53:32.629 +03:00 [DBG] Connection id "0HMSNTIKT4EPG", Request id "0HMSNTIKT4EPG:00000001": started reading request body.
+2023-08-08 11:53:32.635 +03:00 [DBG] Connection id "0HMSNTIKT4EPG", Request id "0HMSNTIKT4EPG:00000001": done reading request body.
+2023-08-08 11:53:32.648 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 11:53:32.651 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:32.653 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:32.655 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 11:53:32.678 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:32.687 +03:00 [INF] Start Export product
+2023-08-08 11:53:32.688 +03:00 [ERR] End Export product with something went wrong
+2023-08-08 11:53:32.693 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2023-08-08 11:53:32.701 +03:00 [DBG] No information found on request to perform content negotiation.
+2023-08-08 11:53:32.703 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-08-08 11:53:32.708 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-08-08 11:53:32.711 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-08-08 11:53:32.729 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 147.2273ms
+2023-08-08 11:53:32.733 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:32.737 +03:00 [INF] HTTP POST /inventory/Inventory/export responded 400 in 251.7625 ms
+2023-08-08 11:53:32.743 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" completed keep alive response.
+2023-08-08 11:53:32.745 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5240/inventory/Inventory/export application/json 74 - 400 - application/problem+json;+charset=utf-8 291.3849ms
+2023-08-08 11:53:37.431 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" received FIN.
+2023-08-08 11:53:37.434 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" disconnecting.
+2023-08-08 11:53:37.435 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" sending FIN because: "The client closed the connection."
+2023-08-08 11:53:37.446 +03:00 [DBG] Connection id "0HMSNTIKT4EPG" stopped.
+2023-08-08 11:53:40.557 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" accepted.
+2023-08-08 11:53:40.718 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" started.
+2023-08-08 11:53:40.736 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5240/inventory/Inventory/export application/json 74
+2023-08-08 11:53:40.742 +03:00 [DBG] 1 candidate(s) found for the request path '/inventory/Inventory/export'
+2023-08-08 11:53:40.773 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'inventory/Inventory/export' is valid for the request path '/inventory/Inventory/export'
+2023-08-08 11:53:40.838 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:40.841 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 11:53:40.847 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:40.852 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 11:53:40.856 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 11:53:40.858 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 11:53:40.864 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 11:53:40.870 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 11:53:40.878 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 11:53:40.884 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 11:53:40.889 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 11:53:40.892 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 11:53:40.895 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 11:53:40.900 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 11:53:40.909 +03:00 [DBG] Connection id "0HMSNTIKT4EPH", Request id "0HMSNTIKT4EPH:00000001": started reading request body.
+2023-08-08 11:53:40.912 +03:00 [DBG] Connection id "0HMSNTIKT4EPH", Request id "0HMSNTIKT4EPH:00000001": done reading request body.
+2023-08-08 11:53:40.916 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 11:53:40.917 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:40.919 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:40.924 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 11:53:40.941 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 11:53:40.943 +03:00 [INF] Start Export product
+2023-08-08 11:53:40.945 +03:00 [INF] End Export product
+2023-08-08 11:53:40.954 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 11:53:40.969 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 84.8471ms
+2023-08-08 11:53:40.971 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 11:53:40.973 +03:00 [INF] HTTP POST /inventory/Inventory/export responded 200 in 126.1052 ms
+2023-08-08 11:53:40.975 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" completed keep alive response.
+2023-08-08 11:53:40.983 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5240/inventory/Inventory/export application/json 74 - 200 0 - 247.0301ms
+2023-08-08 11:53:42.441 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" received FIN.
+2023-08-08 11:53:42.452 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" disconnecting.
+2023-08-08 11:53:42.454 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" sending FIN because: "The client closed the connection."
+2023-08-08 11:53:42.465 +03:00 [DBG] Connection id "0HMSNTIKT4EPH" stopped.
+2023-08-08 11:59:35.509 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 11:59:35.744 +03:00 [DBG] Hosting starting
+2023-08-08 11:59:36.264 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 11:59:36.500 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 11:59:36.450 +03:00 [DBG] Connection id "0HMSNTN58UOTS" received FIN.
+2023-08-08 11:59:36.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 11:59:36.933 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 11:59:36.934 +03:00 [DBG] Connection id "0HMSNTN58UOTS" accepted.
+2023-08-08 11:59:36.937 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 11:59:36.944 +03:00 [DBG] Connection id "0HMSNTN58UOTS" started.
+2023-08-08 11:59:36.945 +03:00 [INF] Hosting environment: Development
+2023-08-08 11:59:36.950 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 11:59:36.951 +03:00 [DBG] Hosting started
+2023-08-08 11:59:36.987 +03:00 [DBG] Connection id "0HMSNTN58UOTS" sending FIN because: "The client closed the connection."
+2023-08-08 11:59:37.005 +03:00 [DBG] Connection id "0HMSNTN58UOTS" disconnecting.
+2023-08-08 11:59:37.035 +03:00 [DBG] Connection id "0HMSNTN58UOTS" stopped.
+2023-08-08 11:59:37.996 +03:00 [DBG] Connection id "0HMSNTN58UOTT" accepted.
+2023-08-08 11:59:38.083 +03:00 [DBG] Connection id "0HMSNTN58UOTU" accepted.
+2023-08-08 11:59:38.086 +03:00 [DBG] Connection id "0HMSNTN58UOTT" started.
+2023-08-08 11:59:38.124 +03:00 [DBG] Connection id "0HMSNTN58UOTU" started.
+2023-08-08 11:59:38.415 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - -
+2023-08-08 11:59:38.454 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 11:59:38.734 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 11:59:38.876 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 11:59:39.381 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 11:59:39.431 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 11:59:39.465 +03:00 [DBG] Connection id "0HMSNTN58UOTU" completed keep alive response.
+2023-08-08 11:59:39.747 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 1332.6783ms
+2023-08-08 13:18:16.851 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:18:17.338 +03:00 [DBG] Hosting starting
+2023-08-08 13:18:18.006 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:18:18.277 +03:00 [DBG] Connection id "0HMSNV34FPT3R" accepted.
+2023-08-08 13:18:18.294 +03:00 [DBG] Connection id "0HMSNV34FPT3R" received FIN.
+2023-08-08 13:18:18.295 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:18:18.321 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:18:18.300 +03:00 [DBG] Connection id "0HMSNV34FPT3R" started.
+2023-08-08 13:18:18.332 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:18:18.345 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:18:18.346 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:18:18.376 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:18:18.388 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:18:18.537 +03:00 [DBG] Connection id "0HMSNV34FPT3R" stopped.
+2023-08-08 13:18:18.540 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:18:18.546 +03:00 [DBG] Hosting started
+2023-08-08 13:18:18.559 +03:00 [DBG] Connection id "0HMSNV34FPT3R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:18:25.433 +03:00 [DBG] Connection id "0HMSNV34FPT3S" accepted.
+2023-08-08 13:18:25.855 +03:00 [DBG] Connection id "0HMSNV34FPT3T" accepted.
+2023-08-08 13:18:25.855 +03:00 [DBG] Connection id "0HMSNV34FPT3S" started.
+2023-08-08 13:18:25.943 +03:00 [DBG] Connection id "0HMSNV34FPT3T" started.
+2023-08-08 13:18:26.042 +03:00 [DBG] Connection id "0HMSNV34FPT3T" received FIN.
+2023-08-08 13:18:26.058 +03:00 [DBG] Connection 0HMSNV34FPT3T established using the following protocol: "Tls12"
+2023-08-08 13:18:26.058 +03:00 [DBG] Connection 0HMSNV34FPT3S established using the following protocol: "Tls12"
+2023-08-08 13:18:26.109 +03:00 [DBG] Connection id "0HMSNV34FPT3T" is closed. The last processed stream ID was 0.
+2023-08-08 13:18:26.123 +03:00 [DBG] Connection id "0HMSNV34FPT3T" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:26.153 +03:00 [DBG] The connection queue processing loop for 0HMSNV34FPT3T completed.
+2023-08-08 13:18:26.220 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger - -
+2023-08-08 13:18:26.261 +03:00 [DBG] Connection id "0HMSNV34FPT3T" stopped.
+2023-08-08 13:18:26.295 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:18:26.455 +03:00 [DBG] No candidates found for the request path '/swagger'
+2023-08-08 13:18:26.525 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:26.624 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger - - - 301 0 - 412.1785ms
+2023-08-08 13:18:26.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:18:26.675 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:18:27.375 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:28.318 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:18:28.452 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:18:28.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 1819.8077ms
+2023-08-08 13:18:28.990 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui.css - -
+2023-08-08 13:18:29.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui-bundle.js - -
+2023-08-08 13:18:29.076 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - -
+2023-08-08 13:18:29.128 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:18:29.517 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-08-08 13:18:30.889 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:30.886 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-08 13:18:30.891 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:30.885 +03:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-08 13:18:30.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:18:30.895 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:32.955 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3824.6104ms
+2023-08-08 13:18:32.993 +03:00 [DBG] Connection id "0HMSNV34FPT3U" accepted.
+2023-08-08 13:18:33.063 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-08 13:18:33.132 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-08 13:18:33.570 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui-standalone-preset.js - - - 200 339486 text/javascript 4494.3287ms
+2023-08-08 13:18:33.568 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui.css - - - 200 143943 text/css 4577.9765ms
+2023-08-08 13:18:33.566 +03:00 [DBG] Connection id "0HMSNV34FPT3V" accepted.
+2023-08-08 13:18:33.576 +03:00 [DBG] Connection id "0HMSNV34FPT3U" started.
+2023-08-08 13:18:33.578 +03:00 [DBG] Connection id "0HMSNV34FPT3V" started.
+2023-08-08 13:18:33.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2701.4331ms
+2023-08-08 13:18:33.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5240/swagger/index.html - -
+2023-08-08 13:18:33.820 +03:00 [DBG] Connection id "0HMSNV34FPT3V" received FIN.
+2023-08-08 13:18:33.856 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-08 13:18:34.439 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:18:34.449 +03:00 [DBG] Connection id "0HMSNV34FPT3V" disconnecting.
+2023-08-08 13:18:34.450 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/swagger-ui-bundle.js - - - 200 1096145 text/javascript 5398.2485ms
+2023-08-08 13:18:34.451 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:34.453 +03:00 [DBG] Connection id "0HMSNV34FPT3V" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:34.458 +03:00 [DBG] Connection id "0HMSNV34FPT3V" stopped.
+2023-08-08 13:18:34.478 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:18:34.534 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:18:34.535 +03:00 [DBG] Connection id "0HMSNV34FPT3U" completed keep alive response.
+2023-08-08 13:18:34.536 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5240/swagger/index.html - - - 200 - text/html;charset=utf-8 731.7717ms
+2023-08-08 13:18:34.542 +03:00 [DBG] Connection id "0HMSNV34FPT3U" received FIN.
+2023-08-08 13:18:34.552 +03:00 [DBG] Connection id "0HMSNV34FPT3U" disconnecting.
+2023-08-08 13:18:34.556 +03:00 [DBG] Connection id "0HMSNV34FPT3U" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:34.558 +03:00 [DBG] Connection id "0HMSNV34FPT3U" stopped.
+2023-08-08 13:18:35.324 +03:00 [DBG] Connection id "0HMSNV34FPT3S" received FIN.
+2023-08-08 13:18:39.077 +03:00 [DBG] Connection id "0HMSNV34FPT3S" is closed. The last processed stream ID was 13.
+2023-08-08 13:18:39.111 +03:00 [DBG] The connection queue processing loop for 0HMSNV34FPT3S completed.
+2023-08-08 13:18:40.133 +03:00 [DBG] Connection id "0HMSNV34FPT40" accepted.
+2023-08-08 13:18:40.793 +03:00 [DBG] Connection id "0HMSNV34FPT3S" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:40.830 +03:00 [DBG] Connection id "0HMSNV34FPT40" started.
+2023-08-08 13:18:41.410 +03:00 [DBG] Connection id "0HMSNV34FPT3S" stopped.
+2023-08-08 13:18:43.594 +03:00 [DBG] Connection 0HMSNV34FPT40 established using the following protocol: "Tls12"
+2023-08-08 13:18:44.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:18:44.713 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:18:44.719 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:45.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 453.5723ms
+2023-08-08 13:18:45.284 +03:00 [DBG] Connection id "0HMSNV34FPT40" received FIN.
+2023-08-08 13:18:45.301 +03:00 [DBG] Connection id "0HMSNV34FPT40" is closed. The last processed stream ID was 1.
+2023-08-08 13:18:45.315 +03:00 [DBG] The connection queue processing loop for 0HMSNV34FPT40 completed.
+2023-08-08 13:18:45.497 +03:00 [DBG] Connection id "0HMSNV34FPT40" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:45.518 +03:00 [DBG] Connection id "0HMSNV34FPT40" stopped.
+2023-08-08 13:18:49.324 +03:00 [DBG] Connection id "0HMSNV34FPT41" accepted.
+2023-08-08 13:18:49.442 +03:00 [DBG] Connection id "0HMSNV34FPT41" started.
+2023-08-08 13:18:49.503 +03:00 [DBG] Connection 0HMSNV34FPT41 established using the following protocol: "Tls12"
+2023-08-08 13:18:49.796 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/favicon-32x32.png - -
+2023-08-08 13:18:49.805 +03:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-08-08 13:18:49.810 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:18:49.815 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-08 13:18:49.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/favicon-32x32.png - - - 200 628 image/png 29.7969ms
+2023-08-08 13:18:50.292 +03:00 [DBG] Connection id "0HMSNV34FPT41" received FIN.
+2023-08-08 13:18:50.308 +03:00 [DBG] Connection id "0HMSNV34FPT41" is closed. The last processed stream ID was 1.
+2023-08-08 13:18:50.308 +03:00 [DBG] The connection queue processing loop for 0HMSNV34FPT41 completed.
+2023-08-08 13:18:50.314 +03:00 [DBG] Connection id "0HMSNV34FPT41" sending FIN because: "The client closed the connection."
+2023-08-08 13:18:50.326 +03:00 [DBG] Connection id "0HMSNV34FPT41" stopped.
+2023-08-08 13:19:04.991 +03:00 [DBG] Connection id "0HMSNV34FPT42" accepted.
+2023-08-08 13:19:05.021 +03:00 [DBG] Connection id "0HMSNV34FPT42" started.
+2023-08-08 13:19:05.037 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:19:05.051 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:19:05.053 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:19:05.056 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:19:05.067 +03:00 [DBG] Https port '7200' loaded from configuration.
+2023-08-08 13:19:05.074 +03:00 [DBG] Redirecting to 'https://localhost:7200/api/inventory/export'.
+2023-08-08 13:19:05.076 +03:00 [DBG] Connection id "0HMSNV34FPT42" completed keep alive response.
+2023-08-08 13:19:05.087 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65 - 307 0 - 49.9419ms
+2023-08-08 13:19:05.094 +03:00 [DBG] Connection id "0HMSNV34FPT43" accepted.
+2023-08-08 13:19:05.104 +03:00 [DBG] Connection id "0HMSNV34FPT42", Request id "0HMSNV34FPT42:00000001": started reading request body.
+2023-08-08 13:19:05.107 +03:00 [DBG] Connection id "0HMSNV34FPT43" started.
+2023-08-08 13:19:05.108 +03:00 [DBG] Connection id "0HMSNV34FPT42", Request id "0HMSNV34FPT42:00000001": done reading request body.
+2023-08-08 13:19:05.132 +03:00 [DBG] Connection 0HMSNV34FPT43 established using the following protocol: "Tls12"
+2023-08-08 13:19:05.140 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:19:05.141 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:19:05.142 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:19:05.144 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:19:05.154 +03:00 [INF] HTTP POST /api/inventory/export responded 404 in 0.9952 ms
+2023-08-08 13:19:05.157 +03:00 [DBG] Connection id "0HMSNV34FPT43" completed keep alive response.
+2023-08-08 13:19:05.159 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 404 0 - 19.5570ms
+2023-08-08 13:19:05.161 +03:00 [DBG] Connection id "0HMSNV34FPT43", Request id "0HMSNV34FPT43:00000001": started reading request body.
+2023-08-08 13:19:05.163 +03:00 [DBG] Connection id "0HMSNV34FPT43", Request id "0HMSNV34FPT43:00000001": done reading request body.
+2023-08-08 13:19:25.011 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:19:25.018 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:19:25.020 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:19:25.023 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:19:25.025 +03:00 [DBG] Redirecting to 'https://localhost:7200/api/inventory/export'.
+2023-08-08 13:19:25.026 +03:00 [DBG] Connection id "0HMSNV34FPT42" completed keep alive response.
+2023-08-08 13:19:25.032 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:19:25.070 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:19:25.071 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:19:25.068 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65 - 307 0 - 56.7179ms
+2023-08-08 13:19:25.073 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:19:25.074 +03:00 [DBG] Connection id "0HMSNV34FPT42", Request id "0HMSNV34FPT42:00000002": started reading request body.
+2023-08-08 13:19:25.077 +03:00 [DBG] Connection id "0HMSNV34FPT42", Request id "0HMSNV34FPT42:00000002": done reading request body.
+2023-08-08 13:19:25.078 +03:00 [INF] HTTP POST /api/inventory/export responded 404 in 0.0162 ms
+2023-08-08 13:19:25.082 +03:00 [DBG] Connection id "0HMSNV34FPT43" completed keep alive response.
+2023-08-08 13:19:25.084 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 404 0 - 51.7303ms
+2023-08-08 13:19:25.085 +03:00 [DBG] Connection id "0HMSNV34FPT43", Request id "0HMSNV34FPT43:00000002": started reading request body.
+2023-08-08 13:19:25.087 +03:00 [DBG] Connection id "0HMSNV34FPT43", Request id "0HMSNV34FPT43:00000002": done reading request body.
+2023-08-08 13:20:30.249 +03:00 [DBG] Connection id "0HMSNV34FPT43" reset.
+2023-08-08 13:20:30.258 +03:00 [DBG] Connection id "0HMSNV34FPT42" reset.
+2023-08-08 13:20:30.266 +03:00 [DBG] Connection id "0HMSNV34FPT43" sending FIN because: "The client closed the connection."
+2023-08-08 13:20:30.269 +03:00 [DBG] Connection id "0HMSNV34FPT42" disconnecting.
+2023-08-08 13:20:30.289 +03:00 [DBG] Connection id "0HMSNV34FPT43" disconnecting.
+2023-08-08 13:20:30.290 +03:00 [DBG] Connection id "0HMSNV34FPT42" sending FIN because: "The client closed the connection."
+2023-08-08 13:20:30.293 +03:00 [DBG] Connection id "0HMSNV34FPT43" stopped.
+2023-08-08 13:20:30.307 +03:00 [DBG] Connection id "0HMSNV34FPT42" stopped.
+2023-08-08 13:21:08.680 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:21:09.414 +03:00 [DBG] Hosting starting
+2023-08-08 13:21:11.089 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:21:11.104 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:21:11.105 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:21:11.107 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:21:11.108 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:21:11.110 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:21:11.112 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:21:11.136 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:21:11.151 +03:00 [DBG] Hosting started
+2023-08-08 13:21:11.570 +03:00 [DBG] Connection id "0HMSNV4O4CDMK" accepted.
+2023-08-08 13:21:11.570 +03:00 [DBG] Connection id "0HMSNV4O4CDMJ" accepted.
+2023-08-08 13:21:11.577 +03:00 [DBG] Connection id "0HMSNV4O4CDMK" started.
+2023-08-08 13:21:11.577 +03:00 [DBG] Connection id "0HMSNV4O4CDMJ" started.
+2023-08-08 13:21:21.784 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-08-08 13:21:21.784 +03:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-08-08 13:21:21.835 +03:00 [DBG] Connection id "0HMSNV4O4CDMK" stopped.
+2023-08-08 13:21:21.835 +03:00 [DBG] Connection id "0HMSNV4O4CDMJ" stopped.
+2023-08-08 13:21:21.901 +03:00 [DBG] Connection id "0HMSNV4O4CDMK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:21:21.901 +03:00 [DBG] Connection id "0HMSNV4O4CDMJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:21:32.092 +03:00 [DBG] Connection id "0HMSNV4O4CDML" accepted.
+2023-08-08 13:21:32.219 +03:00 [DBG] Connection id "0HMSNV4O4CDML" started.
+2023-08-08 13:21:32.660 +03:00 [DBG] Connection 0HMSNV4O4CDML established using the following protocol: "Tls12"
+2023-08-08 13:21:33.402 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:21:33.686 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:21:33.847 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:21:33.926 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:21:35.505 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:21:35.552 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:21:35.569 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 2432.8339ms
+2023-08-08 13:21:35.904 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:21:36.196 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:21:36.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 429.6789ms
+2023-08-08 13:21:36.862 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 665.9063ms
+2023-08-08 13:21:40.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:21:40.586 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:21:40.597 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:21:40.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 394.5345ms
+2023-08-08 13:21:41.517 +03:00 [DBG] Connection id "0HMSNV4O4CDML" received FIN.
+2023-08-08 13:21:41.707 +03:00 [DBG] The connection queue processing loop for 0HMSNV4O4CDML completed.
+2023-08-08 13:21:41.711 +03:00 [DBG] Connection id "0HMSNV4O4CDML" is closed. The last processed stream ID was 7.
+2023-08-08 13:21:41.717 +03:00 [DBG] Connection id "0HMSNV4O4CDML" sending FIN because: "The client closed the connection."
+2023-08-08 13:21:41.727 +03:00 [DBG] Connection id "0HMSNV4O4CDML" stopped.
+2023-08-08 13:23:08.565 +03:00 [DBG] Connection id "0HMSNV4O4CDMM" accepted.
+2023-08-08 13:23:08.569 +03:00 [DBG] Connection id "0HMSNV4O4CDMM" started.
+2023-08-08 13:23:08.611 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:23:08.614 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:23:08.615 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:23:08.623 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:23:08.633 +03:00 [DBG] Https port '7200' loaded from configuration.
+2023-08-08 13:23:08.641 +03:00 [DBG] Redirecting to 'https://localhost:7200/api/inventory/export'.
+2023-08-08 13:23:08.703 +03:00 [DBG] Connection id "0HMSNV4O4CDMM" completed keep alive response.
+2023-08-08 13:23:08.705 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5240/api/inventory/export application/json;+charset=utf-8 65 - 307 0 - 94.1755ms
+2023-08-08 13:23:08.708 +03:00 [DBG] Connection id "0HMSNV4O4CDMM", Request id "0HMSNV4O4CDMM:00000001": started reading request body.
+2023-08-08 13:23:08.711 +03:00 [DBG] Connection id "0HMSNV4O4CDMM", Request id "0HMSNV4O4CDMM:00000001": done reading request body.
+2023-08-08 13:23:08.728 +03:00 [DBG] Connection id "0HMSNV4O4CDMN" accepted.
+2023-08-08 13:23:08.730 +03:00 [DBG] Connection id "0HMSNV4O4CDMN" started.
+2023-08-08 13:23:08.783 +03:00 [DBG] Connection 0HMSNV4O4CDMN established using the following protocol: "Tls12"
+2023-08-08 13:23:08.803 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:23:08.809 +03:00 [DBG] No candidates found for the request path '/api/inventory/export'
+2023-08-08 13:23:08.811 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:23:08.814 +03:00 [DBG] POST requests are not supported
+2023-08-08 13:23:08.832 +03:00 [INF] HTTP POST /api/inventory/export responded 404 in 1.4171 ms
+2023-08-08 13:23:08.836 +03:00 [DBG] Connection id "0HMSNV4O4CDMN" completed keep alive response.
+2023-08-08 13:23:08.839 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 404 0 - 35.2069ms
+2023-08-08 13:23:08.848 +03:00 [DBG] Connection id "0HMSNV4O4CDMN", Request id "0HMSNV4O4CDMN:00000001": started reading request body.
+2023-08-08 13:23:08.850 +03:00 [DBG] Connection id "0HMSNV4O4CDMN", Request id "0HMSNV4O4CDMN:00000001": done reading request body.
+2023-08-08 13:25:12.055 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:25:12.554 +03:00 [DBG] Hosting starting
+2023-08-08 13:25:13.341 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:25:13.386 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:25:13.392 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:25:13.394 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:25:13.397 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:25:13.401 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:25:13.403 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:25:13.406 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:25:13.408 +03:00 [DBG] Hosting started
+2023-08-08 13:25:13.667 +03:00 [DBG] Connection id "0HMSNV7094SG1" accepted.
+2023-08-08 13:25:13.668 +03:00 [DBG] Connection id "0HMSNV7094SG2" received FIN.
+2023-08-08 13:25:13.736 +03:00 [DBG] Connection id "0HMSNV7094SG1" started.
+2023-08-08 13:25:14.876 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:25:18.962 +03:00 [DBG] Connection id "0HMSNV7094SG3" accepted.
+2023-08-08 13:25:19.553 +03:00 [DBG] Connection id "0HMSNV7094SG1" stopped.
+2023-08-08 13:25:19.577 +03:00 [DBG] Connection id "0HMSNV7094SG3" started.
+2023-08-08 13:25:19.630 +03:00 [DBG] Connection id "0HMSNV7094SG1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:25:19.799 +03:00 [DBG] Connection 0HMSNV7094SG3 established using the following protocol: "Tls12"
+2023-08-08 13:25:20.063 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:25:20.162 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:25:20.223 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:25:20.226 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:25:21.037 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:25:21.204 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:25:21.228 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 1169.6768ms
+2023-08-08 13:25:22.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:25:22.259 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:25:22.527 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 452.7030ms
+2023-08-08 13:25:24.967 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2708.8374ms
+2023-08-08 13:25:25.713 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:25:26.153 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:25:26.156 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:25:26.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 818.0437ms
+2023-08-08 13:25:29.558 +03:00 [DBG] Connection id "0HMSNV7094SG3" received FIN.
+2023-08-08 13:25:30.542 +03:00 [DBG] The connection queue processing loop for 0HMSNV7094SG3 completed.
+2023-08-08 13:25:30.557 +03:00 [DBG] Connection id "0HMSNV7094SG3" is closed. The last processed stream ID was 7.
+2023-08-08 13:25:30.560 +03:00 [DBG] Connection id "0HMSNV7094SG3" sending FIN because: "The client closed the connection."
+2023-08-08 13:25:30.568 +03:00 [DBG] Connection id "0HMSNV7094SG3" stopped.
+2023-08-08 13:35:58.951 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:35:59.711 +03:00 [DBG] Hosting starting
+2023-08-08 13:36:00.121 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:36:00.260 +03:00 [DBG] Connection id "0HMSNVD0VLIFA" received FIN.
+2023-08-08 13:36:00.685 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:36:00.695 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:36:00.696 +03:00 [DBG] Connection id "0HMSNVD0VLIFA" accepted.
+2023-08-08 13:36:00.698 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:36:00.702 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:36:00.702 +03:00 [DBG] Connection id "0HMSNVD0VLIFA" started.
+2023-08-08 13:36:00.706 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:36:00.708 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:36:00.710 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:36:00.712 +03:00 [DBG] Hosting started
+2023-08-08 13:36:02.860 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" accepted.
+2023-08-08 13:36:02.866 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" started.
+2023-08-08 13:36:03.066 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:36:03.807 +03:00 [DBG] Connection 0HMSNVD0VLIFB established using the following protocol: "Tls12"
+2023-08-08 13:36:04.384 +03:00 [DBG] Connection id "0HMSNVD0VLIFA" stopped.
+2023-08-08 13:36:04.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:36:04.659 +03:00 [DBG] Connection id "0HMSNVD0VLIFA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:36:04.722 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:36:04.805 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:36:04.842 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:36:05.635 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:36:06.460 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:36:06.543 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 1956.1192ms
+2023-08-08 13:36:08.176 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" received FIN.
+2023-08-08 13:36:08.757 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" is closed. The last processed stream ID was 1.
+2023-08-08 13:36:08.761 +03:00 [DBG] The connection queue processing loop for 0HMSNVD0VLIFB completed.
+2023-08-08 13:36:08.774 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" sending FIN because: "The client closed the connection."
+2023-08-08 13:36:08.784 +03:00 [DBG] Connection id "0HMSNVD0VLIFB" stopped.
+2023-08-08 13:36:10.871 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" accepted.
+2023-08-08 13:36:10.873 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" started.
+2023-08-08 13:36:10.890 +03:00 [DBG] Connection 0HMSNVD0VLIFC established using the following protocol: "Tls12"
+2023-08-08 13:36:10.900 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:36:10.910 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 8.5152ms
+2023-08-08 13:36:12.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:36:12.370 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.2303ms
+2023-08-08 13:36:13.132 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" received FIN.
+2023-08-08 13:36:13.139 +03:00 [DBG] The connection queue processing loop for 0HMSNVD0VLIFC completed.
+2023-08-08 13:36:13.139 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" is closed. The last processed stream ID was 3.
+2023-08-08 13:36:13.152 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" sending FIN because: "The client closed the connection."
+2023-08-08 13:36:13.161 +03:00 [DBG] Connection id "0HMSNVD0VLIFC" stopped.
+2023-08-08 13:36:18.337 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" accepted.
+2023-08-08 13:36:18.339 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" started.
+2023-08-08 13:36:18.342 +03:00 [DBG] Connection 0HMSNVD0VLIFD established using the following protocol: "Tls12"
+2023-08-08 13:36:18.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:36:18.347 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:36:18.348 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:36:18.594 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.0116ms
+2023-08-08 13:36:20.642 +03:00 [DBG] Connection id "0HMSNVD0VLIFE" accepted.
+2023-08-08 13:36:20.647 +03:00 [DBG] Connection id "0HMSNVD0VLIFE" started.
+2023-08-08 13:36:20.667 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:36:20.680 +03:00 [DBG] Connection id "0HMSNVD0VLIFE" stopped.
+2023-08-08 13:36:20.681 +03:00 [DBG] Connection id "0HMSNVD0VLIFE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:36:23.133 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" received FIN.
+2023-08-08 13:36:23.157 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" is closed. The last processed stream ID was 1.
+2023-08-08 13:36:23.158 +03:00 [DBG] The connection queue processing loop for 0HMSNVD0VLIFD completed.
+2023-08-08 13:36:23.171 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" sending FIN because: "The client closed the connection."
+2023-08-08 13:36:23.176 +03:00 [DBG] Connection id "0HMSNVD0VLIFD" stopped.
+2023-08-08 13:37:17.375 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:37:18.001 +03:00 [DBG] Hosting starting
+2023-08-08 13:37:21.690 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:37:22.109 +03:00 [DBG] Connection id "0HMSNVDPC7TOJ" received FIN.
+2023-08-08 13:37:24.532 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" accepted.
+2023-08-08 13:37:24.535 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:37:24.600 +03:00 [DBG] Connection id "0HMSNVDPC7TOJ" accepted.
+2023-08-08 13:37:24.675 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:37:24.675 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" started.
+2023-08-08 13:37:24.686 +03:00 [DBG] Connection id "0HMSNVDPC7TOJ" started.
+2023-08-08 13:37:24.690 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:37:24.706 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:37:24.708 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:37:24.720 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:37:24.803 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:37:25.287 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:37:25.028 +03:00 [DBG] Connection 0HMSNVDPC7TOK established using the following protocol: "Tls12"
+2023-08-08 13:37:25.729 +03:00 [DBG] Hosting started
+2023-08-08 13:37:25.753 +03:00 [DBG] Connection id "0HMSNVDPC7TOJ" stopped.
+2023-08-08 13:37:25.813 +03:00 [DBG] Connection id "0HMSNVDPC7TOJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:37:26.022 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:37:26.615 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:37:26.808 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:37:27.170 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:37:28.157 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:37:28.201 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:37:28.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 2208.7309ms
+2023-08-08 13:37:30.642 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:37:30.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:37:31.738 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 1095.5479ms
+2023-08-08 13:37:33.535 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 2729.6096ms
+2023-08-08 13:37:37.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:37:37.799 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:37:37.801 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:37:38.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 478.7211ms
+2023-08-08 13:37:43.215 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" received FIN.
+2023-08-08 13:37:43.243 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" is closed. The last processed stream ID was 7.
+2023-08-08 13:37:43.246 +03:00 [DBG] The connection queue processing loop for 0HMSNVDPC7TOK completed.
+2023-08-08 13:37:43.273 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" sending FIN because: "The client closed the connection."
+2023-08-08 13:37:43.287 +03:00 [DBG] Connection id "0HMSNVDPC7TOK" stopped.
+2023-08-08 13:38:03.330 +03:00 [DBG] Connection id "0HMSNVDPC7TOL" accepted.
+2023-08-08 13:38:03.348 +03:00 [DBG] Connection id "0HMSNVDPC7TOL" started.
+2023-08-08 13:38:03.354 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:38:03.361 +03:00 [DBG] Connection id "0HMSNVDPC7TOL" stopped.
+2023-08-08 13:38:03.362 +03:00 [DBG] Connection id "0HMSNVDPC7TOL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:38:30.699 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" accepted.
+2023-08-08 13:38:30.731 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" started.
+2023-08-08 13:38:30.749 +03:00 [DBG] Connection 0HMSNVDPC7TOM established using the following protocol: "Tls12"
+2023-08-08 13:38:30.753 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7200/inventory/Inventory/export application/json 74
+2023-08-08 13:38:30.768 +03:00 [DBG] 1 candidate(s) found for the request path '/inventory/Inventory/export'
+2023-08-08 13:38:30.772 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'inventory/Inventory/export' is valid for the request path '/inventory/Inventory/export'
+2023-08-08 13:38:30.775 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:38:30.779 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 13:38:30.785 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:38:30.813 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 13:38:30.818 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 13:38:30.819 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 13:38:30.821 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 13:38:30.825 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 13:38:30.827 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 13:38:30.832 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 13:38:30.834 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 13:38:30.863 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 13:38:30.872 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 13:38:30.878 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-08-08 13:38:30.901 +03:00 [DBG] Connection id "0HMSNVDPC7TOM", Request id "0HMSNVDPC7TOM:00000001": started reading request body.
+2023-08-08 13:38:30.903 +03:00 [DBG] Connection id "0HMSNVDPC7TOM", Request id "0HMSNVDPC7TOM:00000001": done reading request body.
+2023-08-08 13:38:30.921 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 13:38:30.924 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:38:30.928 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:38:30.930 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 13:38:30.951 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:38:30.956 +03:00 [INF] Start Export product
+2023-08-08 13:38:30.959 +03:00 [INF] End Export product
+2023-08-08 13:38:30.967 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 13:38:30.974 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 138.4288ms
+2023-08-08 13:38:30.978 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:38:30.983 +03:00 [INF] HTTP POST /inventory/Inventory/export responded 200 in 195.7525 ms
+2023-08-08 13:38:30.986 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7200/inventory/Inventory/export application/json 74 - 200 0 - 232.8577ms
+2023-08-08 13:38:33.288 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" received FIN.
+2023-08-08 13:38:33.292 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" is closed. The last processed stream ID was 1.
+2023-08-08 13:38:33.292 +03:00 [DBG] The connection queue processing loop for 0HMSNVDPC7TOM completed.
+2023-08-08 13:38:33.294 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" sending FIN because: "The client closed the connection."
+2023-08-08 13:38:33.301 +03:00 [DBG] Connection id "0HMSNVDPC7TOM" stopped.
+2023-08-08 13:40:51.898 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:40:55.228 +03:00 [DBG] Hosting starting
+2023-08-08 13:40:59.890 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:40:59.896 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:40:59.902 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:40:59.903 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:40:59.905 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:40:59.909 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:40:59.910 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:40:59.912 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:40:59.994 +03:00 [DBG] Hosting started
+2023-08-08 13:41:00.096 +03:00 [DBG] Connection id "0HMSNVFQB3LK1" accepted.
+2023-08-08 13:41:00.099 +03:00 [DBG] Connection id "0HMSNVFQB3LK1" started.
+2023-08-08 13:41:00.320 +03:00 [DBG] Connection id "0HMSNVFQB3LK2" accepted.
+2023-08-08 13:41:00.322 +03:00 [DBG] Connection id "0HMSNVFQB3LK2" started.
+2023-08-08 13:41:01.901 +03:00 [DBG] Connection id "0HMSNVFQB3LK2" received FIN.
+2023-08-08 13:41:01.907 +03:00 [DBG] Connection id "0HMSNVFQB3LK1" received FIN.
+2023-08-08 13:41:02.104 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:41:02.131 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:41:04.419 +03:00 [DBG] Connection id "0HMSNVFQB3LK1" stopped.
+2023-08-08 13:41:04.428 +03:00 [DBG] Connection id "0HMSNVFQB3LK2" stopped.
+2023-08-08 13:41:05.756 +03:00 [DBG] Connection id "0HMSNVFQB3LK1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:41:07.162 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" accepted.
+2023-08-08 13:41:05.955 +03:00 [DBG] Connection id "0HMSNVFQB3LK2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:41:07.373 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" started.
+2023-08-08 13:41:07.645 +03:00 [DBG] Connection 0HMSNVFQB3LK3 established using the following protocol: "Tls12"
+2023-08-08 13:41:08.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:41:08.562 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:41:08.663 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:41:08.695 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:41:09.648 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:41:09.772 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:41:09.792 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 1386.1916ms
+2023-08-08 13:41:12.708 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:41:12.727 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 18.8633ms
+2023-08-08 13:41:13.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:41:13.915 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.5715ms
+2023-08-08 13:41:16.859 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" received FIN.
+2023-08-08 13:41:16.912 +03:00 [DBG] The connection queue processing loop for 0HMSNVFQB3LK3 completed.
+2023-08-08 13:41:16.923 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" is closed. The last processed stream ID was 5.
+2023-08-08 13:41:16.928 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" sending FIN because: "The client closed the connection."
+2023-08-08 13:41:16.946 +03:00 [DBG] Connection id "0HMSNVFQB3LK3" stopped.
+2023-08-08 13:41:20.656 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" accepted.
+2023-08-08 13:41:20.658 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" started.
+2023-08-08 13:41:20.663 +03:00 [DBG] Connection 0HMSNVFQB3LK4 established using the following protocol: "Tls12"
+2023-08-08 13:41:20.670 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:41:20.675 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:41:20.679 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:41:21.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 363.1731ms
+2023-08-08 13:41:21.872 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" received FIN.
+2023-08-08 13:41:21.889 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" is closed. The last processed stream ID was 1.
+2023-08-08 13:41:21.892 +03:00 [DBG] The connection queue processing loop for 0HMSNVFQB3LK4 completed.
+2023-08-08 13:41:21.900 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" sending FIN because: "The client closed the connection."
+2023-08-08 13:41:21.921 +03:00 [DBG] Connection id "0HMSNVFQB3LK4" stopped.
+2023-08-08 13:41:59.404 +03:00 [DBG] Connection id "0HMSNVFQB3LK5" accepted.
+2023-08-08 13:41:59.430 +03:00 [DBG] Connection id "0HMSNVFQB3LK5" started.
+2023-08-08 13:41:59.443 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:41:59.454 +03:00 [DBG] Connection id "0HMSNVFQB3LK5" stopped.
+2023-08-08 13:41:59.458 +03:00 [DBG] Connection id "0HMSNVFQB3LK5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:42:43.639 +03:00 [DBG] Connection id "0HMSNVFQB3LK6" accepted.
+2023-08-08 13:42:43.651 +03:00 [DBG] Connection id "0HMSNVFQB3LK6" started.
+2023-08-08 13:42:43.656 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.Security.Authentication.AuthenticationException: Cannot determine the frame size or a corrupted frame was received.
+   at System.Net.Security.SslStream.GetFrameSize(ReadOnlySpan`1 buffer)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:42:43.671 +03:00 [DBG] Connection id "0HMSNVFQB3LK6" stopped.
+2023-08-08 13:42:43.683 +03:00 [DBG] Connection id "0HMSNVFQB3LK6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:52:52.261 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 13:52:52.531 +03:00 [DBG] Hosting starting
+2023-08-08 13:52:52.896 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 13:52:52.910 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 13:52:52.912 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 13:52:52.913 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 13:52:52.917 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 13:52:52.920 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 13:52:52.922 +03:00 [INF] Hosting environment: Development
+2023-08-08 13:52:52.923 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 13:52:52.925 +03:00 [DBG] Hosting started
+2023-08-08 13:52:53.251 +03:00 [DBG] Connection id "0HMSNVMES9TQK" accepted.
+2023-08-08 13:52:53.258 +03:00 [DBG] Connection id "0HMSNVMES9TQK" started.
+2023-08-08 13:52:53.269 +03:00 [DBG] Connection id "0HMSNVMES9TQL" accepted.
+2023-08-08 13:52:53.301 +03:00 [DBG] Connection id "0HMSNVMES9TQK" received FIN.
+2023-08-08 13:52:53.302 +03:00 [DBG] Connection id "0HMSNVMES9TQL" received FIN.
+2023-08-08 13:52:53.347 +03:00 [DBG] Connection id "0HMSNVMES9TQL" started.
+2023-08-08 13:52:53.434 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:52:53.857 +03:00 [DBG] Connection id "0HMSNVMES9TQM" accepted.
+2023-08-08 13:52:53.860 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 13:52:54.218 +03:00 [DBG] Connection id "0HMSNVMES9TQM" started.
+2023-08-08 13:52:54.225 +03:00 [DBG] Connection id "0HMSNVMES9TQK" stopped.
+2023-08-08 13:52:54.227 +03:00 [DBG] Connection id "0HMSNVMES9TQL" stopped.
+2023-08-08 13:52:54.327 +03:00 [DBG] Connection 0HMSNVMES9TQM established using the following protocol: "Tls12"
+2023-08-08 13:52:54.437 +03:00 [DBG] Connection id "0HMSNVMES9TQK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:52:54.458 +03:00 [DBG] Connection id "0HMSNVMES9TQL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 13:52:54.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 13:52:54.688 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 13:52:54.743 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 13:52:54.780 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:52:55.273 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 13:52:55.322 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 13:52:55.362 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 755.8587ms
+2023-08-08 13:52:59.403 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 13:52:59.420 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 12.0059ms
+2023-08-08 13:53:00.285 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 13:53:00.352 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.0874ms
+2023-08-08 13:53:02.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 13:53:02.905 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 13:53:02.907 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 13:53:03.324 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 427.9818ms
+2023-08-08 13:53:13.018 +03:00 [DBG] Connection id "0HMSNVMES9TQM" received FIN.
+2023-08-08 13:53:13.023 +03:00 [DBG] The connection queue processing loop for 0HMSNVMES9TQM completed.
+2023-08-08 13:53:13.028 +03:00 [DBG] Connection id "0HMSNVMES9TQM" is closed. The last processed stream ID was 7.
+2023-08-08 13:53:13.030 +03:00 [DBG] Connection id "0HMSNVMES9TQM" sending FIN because: "The client closed the connection."
+2023-08-08 13:53:13.033 +03:00 [DBG] Connection id "0HMSNVMES9TQM" stopped.
+2023-08-08 13:53:13.497 +03:00 [DBG] Connection id "0HMSNVMES9TQN" accepted.
+2023-08-08 13:53:13.507 +03:00 [DBG] Connection id "0HMSNVMES9TQN" started.
+2023-08-08 13:53:13.523 +03:00 [DBG] Connection 0HMSNVMES9TQN established using the following protocol: "Tls12"
+2023-08-08 13:53:13.553 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 13:53:13.559 +03:00 [DBG] 1 candidate(s) found for the request path '/api/inventory/export'
+2023-08-08 13:53:13.563 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'api/Inventory/export' is valid for the request path '/api/inventory/export'
+2023-08-08 13:53:13.567 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:53:13.573 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 13:53:13.579 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:53:13.605 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 13:53:13.610 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 13:53:13.612 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 13:53:13.616 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 13:53:13.621 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 13:53:13.622 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 13:53:13.627 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 13:53:13.629 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 13:53:13.641 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 13:53:13.648 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 13:53:13.655 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2023-08-08 13:53:13.680 +03:00 [DBG] Connection id "0HMSNVMES9TQN", Request id "0HMSNVMES9TQN:00000001": started reading request body.
+2023-08-08 13:53:13.686 +03:00 [DBG] Connection id "0HMSNVMES9TQN", Request id "0HMSNVMES9TQN:00000001": done reading request body.
+2023-08-08 13:53:13.698 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 13:53:13.704 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:53:13.706 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:53:13.708 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 13:53:13.726 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 13:53:13.732 +03:00 [INF] Start Export product
+2023-08-08 13:53:13.738 +03:00 [INF] End Export product
+2023-08-08 13:53:13.745 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 13:53:13.754 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 122.2042ms
+2023-08-08 13:53:13.758 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 13:53:13.769 +03:00 [INF] HTTP POST /api/inventory/export responded 200 in 182.9893 ms
+2023-08-08 13:53:13.778 +03:00 [DBG] Connection id "0HMSNVMES9TQN" completed keep alive response.
+2023-08-08 13:53:13.779 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 200 0 - 226.1405ms
+2023-08-08 13:54:28.598 +03:00 [DBG] Connection id "0HMSNVMES9TQN" received FIN.
+2023-08-08 13:54:28.618 +03:00 [DBG] Connection id "0HMSNVMES9TQN" disconnecting.
+2023-08-08 13:54:28.624 +03:00 [DBG] Connection id "0HMSNVMES9TQN" sending FIN because: "The client closed the connection."
+2023-08-08 13:54:28.631 +03:00 [DBG] Connection id "0HMSNVMES9TQN" stopped.
+2023-08-08 14:00:38.172 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-08-08 14:00:38.586 +03:00 [DBG] Hosting starting
+2023-08-08 14:00:39.156 +03:00 [INF] Now listening on: https://localhost:7200
+2023-08-08 14:00:39.355 +03:00 [INF] Now listening on: http://localhost:5240
+2023-08-08 14:00:39.567 +03:00 [DBG] Loaded hosting startup assembly InventoryService
+2023-08-08 14:00:39.593 +03:00 [DBG] Connection id "0HMSNVQPRM7HU" accepted.
+2023-08-08 14:00:39.645 +03:00 [DBG] Connection id "0HMSNVQPRM7HU" received FIN.
+2023-08-08 14:00:39.648 +03:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-08 14:00:39.654 +03:00 [DBG] Connection id "0HMSNVQPRM7HU" started.
+2023-08-08 14:00:39.666 +03:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-08 14:00:39.671 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-08 14:00:39.673 +03:00 [INF] Hosting environment: Development
+2023-08-08 14:00:39.674 +03:00 [INF] Content root path: C:\Users\dell\source\repos\InventoryService
+2023-08-08 14:00:39.676 +03:00 [DBG] Hosting started
+2023-08-08 14:00:39.698 +03:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-08-08 14:00:39.956 +03:00 [DBG] Connection id "0HMSNVQPRM7HU" stopped.
+2023-08-08 14:00:39.979 +03:00 [DBG] Connection id "0HMSNVQPRM7HU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-08 14:00:42.868 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" accepted.
+2023-08-08 14:00:43.203 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" started.
+2023-08-08 14:00:43.619 +03:00 [DBG] Connection 0HMSNVQPRM7HV established using the following protocol: "Tls12"
+2023-08-08 14:00:43.977 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/index.html - -
+2023-08-08 14:00:44.118 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-08-08 14:00:44.269 +03:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-08-08 14:00:44.917 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 14:00:46.734 +03:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-08-08 14:00:48.930 +03:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-08-08 14:00:49.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/index.html - - - 200 - text/html;charset=utf-8 5721.0747ms
+2023-08-08 14:00:51.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - -
+2023-08-08 14:00:51.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/_vs/browserLink - -
+2023-08-08 14:00:51.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 48.3296ms
+2023-08-08 14:00:51.503 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 247.7011ms
+2023-08-08 14:00:53.844 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" received FIN.
+2023-08-08 14:00:54.156 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" is closed. The last processed stream ID was 5.
+2023-08-08 14:00:54.161 +03:00 [DBG] The connection queue processing loop for 0HMSNVQPRM7HV completed.
+2023-08-08 14:00:54.184 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" sending FIN because: "The client closed the connection."
+2023-08-08 14:00:54.189 +03:00 [DBG] Connection id "0HMSNVQPRM7HV" stopped.
+2023-08-08 14:01:16.003 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" accepted.
+2023-08-08 14:01:16.016 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" started.
+2023-08-08 14:01:16.039 +03:00 [DBG] Connection 0HMSNVQPRM7I0 established using the following protocol: "Tls12"
+2023-08-08 14:01:16.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - -
+2023-08-08 14:01:16.046 +03:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-08 14:01:16.048 +03:00 [DBG] Request did not match any endpoints
+2023-08-08 14:01:16.530 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7200/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 485.8156ms
+2023-08-08 14:01:18.798 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" received FIN.
+2023-08-08 14:01:18.831 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" is closed. The last processed stream ID was 1.
+2023-08-08 14:01:18.832 +03:00 [DBG] The connection queue processing loop for 0HMSNVQPRM7I0 completed.
+2023-08-08 14:01:18.873 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" sending FIN because: "The client closed the connection."
+2023-08-08 14:01:18.888 +03:00 [DBG] Connection id "0HMSNVQPRM7I0" stopped.
+2023-08-08 14:01:37.625 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" accepted.
+2023-08-08 14:01:37.631 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" started.
+2023-08-08 14:01:37.653 +03:00 [DBG] Connection 0HMSNVQPRM7I1 established using the following protocol: "Tls12"
+2023-08-08 14:01:37.698 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 14:01:37.719 +03:00 [DBG] 1 candidate(s) found for the request path '/api/inventory/export'
+2023-08-08 14:01:37.740 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'api/Inventory/export' is valid for the request path '/api/inventory/export'
+2023-08-08 14:01:38.181 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:01:39.022 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 14:01:39.088 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:01:39.201 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 14:01:39.377 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 14:01:39.381 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 14:01:39.385 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 14:01:39.447 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 14:01:40.080 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 14:01:40.089 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:01:40.103 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:01:40.127 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:01:40.148 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 14:01:40.158 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2023-08-08 14:01:40.183 +03:00 [DBG] Connection id "0HMSNVQPRM7I1", Request id "0HMSNVQPRM7I1:00000001": started reading request body.
+2023-08-08 14:01:40.186 +03:00 [DBG] Connection id "0HMSNVQPRM7I1", Request id "0HMSNVQPRM7I1:00000001": done reading request body.
+2023-08-08 14:01:40.199 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 14:01:40.202 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:01:40.204 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:01:40.206 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:01:40.244 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:01:40.251 +03:00 [INF] Start Export product
+2023-08-08 14:01:40.283 +03:00 [INF] End Export product
+2023-08-08 14:01:40.302 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 14:01:40.479 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 386.877ms
+2023-08-08 14:01:40.652 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:01:40.661 +03:00 [INF] HTTP POST /api/inventory/export responded 200 in 1570.7497 ms
+2023-08-08 14:01:40.675 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" completed keep alive response.
+2023-08-08 14:01:40.679 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 200 0 - 2981.7469ms
+2023-08-08 14:02:52.684 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" received FIN.
+2023-08-08 14:02:52.690 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" disconnecting.
+2023-08-08 14:02:52.692 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" sending FIN because: "The client closed the connection."
+2023-08-08 14:02:52.699 +03:00 [DBG] Connection id "0HMSNVQPRM7I1" stopped.
+2023-08-08 14:13:11.085 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" accepted.
+2023-08-08 14:13:11.095 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" started.
+2023-08-08 14:13:11.119 +03:00 [DBG] Connection 0HMSNVQPRM7I2 established using the following protocol: "Tls12"
+2023-08-08 14:13:11.142 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 14:13:11.146 +03:00 [DBG] 1 candidate(s) found for the request path '/api/inventory/export'
+2023-08-08 14:13:11.148 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'api/Inventory/export' is valid for the request path '/api/inventory/export'
+2023-08-08 14:13:11.154 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:13:11.157 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 14:13:11.159 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:13:11.162 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 14:13:11.165 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 14:13:11.168 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 14:13:11.169 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 14:13:11.171 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 14:13:11.174 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 14:13:11.177 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:13:11.178 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:13:11.180 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:13:11.183 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 14:13:11.186 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2023-08-08 14:13:11.190 +03:00 [DBG] Connection id "0HMSNVQPRM7I2", Request id "0HMSNVQPRM7I2:00000001": started reading request body.
+2023-08-08 14:13:11.193 +03:00 [DBG] Connection id "0HMSNVQPRM7I2", Request id "0HMSNVQPRM7I2:00000001": done reading request body.
+2023-08-08 14:13:11.195 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 14:13:11.196 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:13:11.198 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:13:11.200 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:13:11.207 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:13:11.209 +03:00 [INF] Start Export product
+2023-08-08 14:13:11.210 +03:00 [INF] End Export product
+2023-08-08 14:13:11.214 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 14:13:11.216 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 39.3482ms
+2023-08-08 14:13:11.218 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:13:11.219 +03:00 [INF] HTTP POST /api/inventory/export responded 200 in 60.3984 ms
+2023-08-08 14:13:11.225 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" completed keep alive response.
+2023-08-08 14:13:11.226 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 200 0 - 84.8636ms
+2023-08-08 14:14:26.094 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" received FIN.
+2023-08-08 14:14:26.114 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" disconnecting.
+2023-08-08 14:14:26.158 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" sending FIN because: "The client closed the connection."
+2023-08-08 14:14:26.160 +03:00 [DBG] Connection id "0HMSNVQPRM7I2" stopped.
+2023-08-08 14:29:37.515 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" accepted.
+2023-08-08 14:29:37.573 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" started.
+2023-08-08 14:29:37.699 +03:00 [DBG] Connection 0HMSNVQPRM7I3 established using the following protocol: "Tls12"
+2023-08-08 14:29:38.182 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65
+2023-08-08 14:29:38.310 +03:00 [DBG] 1 candidate(s) found for the request path '/api/inventory/export'
+2023-08-08 14:29:38.320 +03:00 [DBG] Endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)' with route pattern 'api/Inventory/export' is valid for the request path '/api/inventory/export'
+2023-08-08 14:29:38.332 +03:00 [DBG] Request matched endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:29:38.353 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-08-08 14:29:38.371 +03:00 [INF] Executing endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:29:38.410 +03:00 [INF] Route matched with {action = "Export", controller = "Inventory"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Export(InventoryService.InventoryModel) on controller InventoryService.Controllers.InventoryController (InventoryService).
+2023-08-08 14:29:39.671 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-08-08 14:29:39.679 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-08-08 14:29:39.682 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-08-08 14:29:39.689 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-08-08 14:29:39.694 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-08-08 14:29:39.697 +03:00 [DBG] Executing controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:29:39.700 +03:00 [DBG] Executed controller factory for controller InventoryService.Controllers.InventoryController (InventoryService)
+2023-08-08 14:29:39.706 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:29:39.717 +03:00 [DBG] Attempting to bind parameter 'model' of type 'InventoryService.InventoryModel' using the name '' in request data ...
+2023-08-08 14:29:39.721 +03:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json; charset=utf-8'.
+2023-08-08 14:29:39.725 +03:00 [DBG] Connection id "0HMSNVQPRM7I3", Request id "0HMSNVQPRM7I3:00000001": started reading request body.
+2023-08-08 14:29:39.728 +03:00 [DBG] Connection id "0HMSNVQPRM7I3", Request id "0HMSNVQPRM7I3:00000001": done reading request body.
+2023-08-08 14:29:39.745 +03:00 [DBG] JSON input formatter succeeded, deserializing to type 'InventoryService.InventoryModel'
+2023-08-08 14:29:39.749 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:29:39.751 +03:00 [DBG] Done attempting to bind parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:29:39.753 +03:00 [DBG] Attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel' ...
+2023-08-08 14:29:39.765 +03:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'InventoryService.InventoryModel'.
+2023-08-08 14:29:39.963 +03:00 [INF] Start Export product
+2023-08-08 14:29:39.972 +03:00 [INF] End Export product
+2023-08-08 14:29:39.986 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2023-08-08 14:29:40.000 +03:00 [INF] Executed action InventoryService.Controllers.InventoryController.Export (InventoryService) in 302.5776ms
+2023-08-08 14:29:40.039 +03:00 [INF] Executed endpoint 'InventoryService.Controllers.InventoryController.Export (InventoryService)'
+2023-08-08 14:29:40.048 +03:00 [INF] HTTP POST /api/inventory/export responded 200 in 1681.6923 ms
+2023-08-08 14:29:40.077 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" completed keep alive response.
+2023-08-08 14:29:40.085 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7200/api/inventory/export application/json;+charset=utf-8 65 - 200 0 - 1930.7863ms
+2023-08-08 14:30:52.502 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" received FIN.
+2023-08-08 14:30:52.508 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" disconnecting.
+2023-08-08 14:30:52.531 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" sending FIN because: "The client closed the connection."
+2023-08-08 14:30:52.544 +03:00 [DBG] Connection id "0HMSNVQPRM7I3" stopped.
